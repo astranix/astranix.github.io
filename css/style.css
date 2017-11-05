@@ -215,6 +215,7 @@ iframe {
   font-weight: 600;
   letter-spacing: 2px;
   height: auto;
+  padding: 10px 15px;
   font-family: 'Raleway', sans-serif;
 }
 .navbar-custom .navbar-nav li a {
@@ -493,9 +494,9 @@ iframe {
 /*======================================
          11. TEAM
 ========================================*/
-.team-box {
+/* .team-box {
   border-bottom: 1px solid #E9E9E9;
-}
+} */
 .team-name {
   font-size: 16px;
   padding-top: 12px;
@@ -732,4 +733,11 @@ iframe {
 }
 .contact-title a:hover {
   color: #337ab7;
+}
+.navbar-collapse.collapse {
+  margin-top: 10px;
+}
+.footer-quote {
+  font-size: 20px;
+  font-weight: 600;
 }
